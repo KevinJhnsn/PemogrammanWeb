@@ -1,0 +1,1 @@
+alert("mudah dan menyenangkan bukan?")

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Imanuel Kevin Jhonson</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #1b699c;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--primary);
+            color: white;
+            position: relative;
+        }
+        
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #eee; /* Placeholder color */
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 5px;
+        }
+        
+        section {
+            padding: 25px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        section:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        h2 i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            padding-left: 5px;
+        }
+        
+        strong {
+            color: var(--primary);
+        }
+        
+        .contact-info li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: var(--secondary);
+            width: 20px;
+            text-align: center;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill {
+            background-color: #e9ecef;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: var(--dark);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--gray);
+            font-size: 0.9rem;
+            background-color: #f8f9fa;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .title {
+                font-size: 1rem;
+            }
+            
+            section {
+                padding: 20px 15px;
+            }
+            
+            .profile-picture {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="kevinnn.jpg" alt="Foto Imanuel Kevin Jhonson" class="profile-picture">
+            <h1>Imanuel Kevin Jhonson</h1>
+            <p class="title">Mahasiswa Sistem Informasi</p>
+        </header>
+
+        <section>
+            <h2><i class="fas fa-user"></i> Tentang Saya</h2>
+            <p>Saya adalah mahasiswa semester 4 yang sejak masa SMA memiliki ketertarikan mendalam pada dunia IT, baik di bidang hardware seperti perakitan dan pemeliharaan perangkat komputer dan saya juga memiliki minat besar dalam bidang kreatif, terutama fotografi dan desain grafis, yang sering saya jadikan media untuk mengekspresikan ide dan kreativitas.</p>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-info-circle"></i> Biodata</h2>
+            <ul>
+                <li><strong>Nama Lengkap:</strong> Imanuel Kevin Jhonson</li>
+                <li><strong>Tanggal Lahir:</strong> 21 Februari 2006</li>
+                <li><strong>Alamat:</strong> Jl. Trs Sigura gura, Blok D-170, Kota Malang</li>
+                <li><strong>Pendidikan:</strong> S1-Sistem Informasi, Universitas Merdeka Malang</li>
+                <li><strong>Semester:</strong> 4 (Empat) </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fas fa-code"></i> Keahlian</h2>
+            <div class="skills-container">
+                <div class="skill">Hardware & Jaringan</div>
+                <div class="skill">Desain Grafis</div>
+                <div class="skill">Fotografi</div>
+                <div class="skill">Adobe Photoshop & Canva</div>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <h2><i class="fas fa-address-book"></i> Kontak</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> <strong>Email:</strong>  imanuelkevinj@gmail.com</li>
+                <li><i class="fas fa-phone"></i> <strong>Telepon:</strong>  0823-5278-4540</li>
+                <li><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong>  linkedin.com/in/kevinnn21/</li>
+                <li><i class="fab fa-instagram"></i> <strong>Instagram:</strong>  @Kevinnnsn__</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Biodata Imanuel Kevin Jhonson</p>
+        </footer>
+    </div>
+</body>
+</html>
